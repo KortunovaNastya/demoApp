@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="422.0" style="-fx-background-color: #1F2041;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demoapp.HelloController">
+   <children>
+      <Label layoutX="152.0" layoutY="62.0" prefHeight="33.0" prefWidth="119.0" text="Amogus" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Cooper Black" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="111.0" text="Login" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passwordTextField" layoutX="137.0" layoutY="151.0" />
+      <TextField fx:id="loginTextField" layoutX="137.0" layoutY="113.0" />
+      <Label layoutX="44.0" layoutY="149.0" text="Password" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="enterButton" layoutX="179.0" layoutY="200.0" mnemonicParsing="false" onAction="#enterSystemButtonClick" prefHeight="33.0" prefWidth="64.0" style="-fx-background-color: #417B5A;" text="Log in" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
